@@ -2,7 +2,6 @@ public class SelectionStatementsDemo {
     public static void main(String[] args) {
     
     int studentScore = 82;
-    
     if (studentScore >= 60) {
    System.out.println("You passed the exam!");
 }
@@ -30,7 +29,6 @@ if (studentScore >= 60) {
 } else {
    System.out.println("Grade: F");
 }
-
 if (studentScore >= 90) {
    System.out.println("Multi-way Grade: A");
 } else if (studentScore >= 80) {
